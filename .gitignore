@@ -1,0 +1,29 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local tests and validation records
+/tests/
+/VALIDATION.md
+/SOURCE_PROVENANCE.json
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Development-only recovery tools (not used by scDenoFuse.py)
+/scripts/rescore_existing.py
+/bin/rescore_saved.R
+
+# Local environments and build artifacts
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Local editor settings and default run output
+.vscode/
+.idea/
+.DS_Store
+/output/
